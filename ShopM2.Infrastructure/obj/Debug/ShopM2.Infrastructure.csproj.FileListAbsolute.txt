@@ -7,3 +7,8 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\o
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\obj\Debug\ShopM2.Infrastructure.csproj.CopyComplete
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\obj\Debug\ShopM2.Infrastructure.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\obj\Debug\ShopM2.Infrastructure.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\bin\Debug\ShopM2.Infrastructure.dll.config
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
