@@ -4,3 +4,7 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Core\obj\Debug\S
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Core\obj\Debug\ShopM2.Core.csproj.CoreCompileInputs.cache
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Core\obj\Debug\ShopM2.Core.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Core\obj\Debug\ShopM2.Core.pdb
+C:\Users\NestorJulioCalderonR\source\repos\ShopM2\ShopM2.Core\obj\Debug\ShopM2.Core.csproj.AssemblyReference.cache
+C:\Users\NestorJulioCalderonR\source\repos\ShopM2\ShopM2.Core\obj\Debug\ShopM2.Core.csproj.CoreCompileInputs.cache
+C:\Users\NestorJulioCalderonR\source\repos\ShopM2\ShopM2.Core\obj\Debug\ShopM2.Core.dll
+C:\Users\NestorJulioCalderonR\source\repos\ShopM2\ShopM2.Core\obj\Debug\ShopM2.Core.pdb

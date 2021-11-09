@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace ShopM2.Core.Interfaces
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface IProductRepository
     {
-        Task<IEnumerable<Product>> GetPostsByUser(int userId);
+         List<Product> GetAll();
     }
 }
