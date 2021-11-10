@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ShopM2.Core.Interfaces
 {
-    public class IOrderRepository
+    public interface IOrderRepository
     {
         List<Order> GetAll();
     }

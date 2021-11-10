@@ -83,6 +83,9 @@
     <Compile Include="Data\Product.cs">
       <DependentUpon>ModelShop.tt</DependentUpon>
     </Compile>
+    <Compile Include="Data\sysdiagram.cs">
+      <DependentUpon>ModelShop.tt</DependentUpon>
+    </Compile>
     <Compile Include="Data\TransactionLog.cs">
       <DependentUpon>ModelShop.tt</DependentUpon>
     </Compile>

@@ -6,10 +6,20 @@ namespace ShopM2.Core.Services
 {
     public class OrderService : IOrderService
     {
+        private readonly IOrderRepository OrderRepository;
+
+        public OrderService(IOrderRepository _OrderRepository)
+        {
+            OrderRepository = _OrderRepository;
+        }
+
         /// <summary>
-        /// interface that returns the list of orders
+        /// service that returns the list of Orders
         /// </summary>
-        /// <returns>Task<List<Product>></returns>
-        List<Order> GetAll();
+        /// <returns></returns>
+        List<Order> IOrderService.GetAll()
+        {
+            return OrderRepository.GetAll();
+        }
     }
 }

@@ -14,10 +14,24 @@ namespace ShopM2.Infrastructure.Data
     
     public partial class Order
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Order()
+        {
+            this.OrderDetails = new HashSet<OrderDetail>();
+            this.TransactionLogs = new HashSet<TransactionLog>();
+        }
+    
         public int Id { get; set; }
         public int IdCustomer { get; set; }
-        public int Status { get; set; }
         public System.DateTime Created_at { get; set; }
         public Nullable<System.DateTime> Updated_at { get; set; }
+        public int IdStatus { get; set; }
+    
+        public virtual Customer Customer { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public virtual OrderStatus OrderStatu { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<TransactionLog> TransactionLogs { get; set; }
     }
 }

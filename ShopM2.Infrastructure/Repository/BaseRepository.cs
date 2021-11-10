@@ -19,9 +19,6 @@ namespace ShopM2.Infrastructure.Repository
         {
             context = _context;
         }
-
-      
-
     }
 
 }

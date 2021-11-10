@@ -44,6 +44,8 @@ namespace ShopM2.WebApi
             // TODO: Register your type's mappings 
             container.RegisterType<IProductRepository, ProductRepository>();
             container.RegisterType<IProductService, ProductService>();
+            container.RegisterType<IOrderRepository, OrderRepository>();
+            container.RegisterType<IOrderService, OrderService>();
             container.RegisterType(typeof(IRepository<>), typeof(BaseRepository<>));
 
             IMapper mapper = AutoMapperConfig.Initialize().CreateMapper();
