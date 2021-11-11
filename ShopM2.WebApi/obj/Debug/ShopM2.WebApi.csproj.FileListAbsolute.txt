@@ -98,3 +98,4 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\AutoM
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\AutoMapper.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Util.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Util.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Cors.dll
