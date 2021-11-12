@@ -6,5 +6,7 @@ namespace ShopM2.Core.Interfaces
     public interface IOrderService
     {
         List<Order> GetAll();
+
+        Order Create(Order order);
     }
 }

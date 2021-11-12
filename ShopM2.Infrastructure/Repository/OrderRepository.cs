@@ -30,5 +30,19 @@ namespace ShopM2.Infrastructure.Repository
 
             return list;
         }
+
+        Core.Entities.Order IOrderRepository.Insert(Core.Entities.Order order)
+        {
+            Order entity = mapper.Map<Order>(order);
+            Order result = entities.Add(entity);
+            if (result != null) {
+                Core.Entities.Order orderNew = mapper.Map<Core.Entities.Order>(result);
+                return orderNew;
+            } else return null;
+
+
+           // this.Save();
+          
+        }
     }
 }

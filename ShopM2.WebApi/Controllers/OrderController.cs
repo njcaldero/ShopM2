@@ -24,6 +24,12 @@ namespace ShopM2.WebApi.Controllers
             return orderService.GetAll();
         }
 
-      
+        [HttpPost]
+        public Order Create(Order order)
+        {
+            return orderService.Create(order);
+        }
+
+
     }
 }

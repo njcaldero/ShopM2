@@ -18,6 +18,12 @@ namespace ShopM2.Infrastructure.Repository
         public BaseRepository(SHOP_M2Entities _context)
         {
             context = _context;
+            
+        }
+        public void Save()
+        {
+            context.SaveChanges();
+
         }
     }
 

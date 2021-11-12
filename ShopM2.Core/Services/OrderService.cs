@@ -14,6 +14,16 @@ namespace ShopM2.Core.Services
         }
 
         /// <summary>
+        /// service that returns the order created
+        /// </summary>
+        /// <param name="order">Order</param>
+        /// <returns>Order</returns>
+        Order IOrderService.Create(Order order)
+        {
+            return OrderRepository.Insert(order);
+        }
+
+        /// <summary>
         /// service that returns the list of Orders
         /// </summary>
         /// <returns></returns>
