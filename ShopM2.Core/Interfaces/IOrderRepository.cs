@@ -1,4 +1,5 @@
-﻿using ShopM2.Core.Entities;
+﻿using ShopM2.Core.Dto;
+using ShopM2.Core.Entities;
 using System.Collections.Generic;
 
 namespace ShopM2.Core.Interfaces

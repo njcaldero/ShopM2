@@ -1,16 +1,22 @@
-﻿using ShopM2.Core.Entities;
+﻿using ShopM2.Core.Dto;
+using ShopM2.Core.Entities;
 using ShopM2.Core.Interfaces;
+using System;
 using System.Collections.Generic;
 
 namespace ShopM2.Core.Services
 {
     public class OrderService : IOrderService
     {
-        private readonly IOrderRepository OrderRepository;
+        private readonly IOrderRepository orderRepository;
+        private readonly ICustomerService customerService;
+        //private readonly IOrderDetailService orderDetailService;
 
-        public OrderService(IOrderRepository _OrderRepository)
+        public OrderService(IOrderRepository _orderRepository, ICustomerService _customerService)
         {
-            OrderRepository = _OrderRepository;
+            orderRepository = _orderRepository;
+            customerService = _customerService;
+           // orderDetailService = _orderDetailService;
         }
 
         /// <summary>
@@ -20,7 +26,17 @@ namespace ShopM2.Core.Services
         /// <returns>Order</returns>
         Order IOrderService.Create(Order order)
         {
-            return OrderRepository.Insert(order);
+
+            Customer customer = customerService.SelectByEmail(order.Customer.Email);
+
+            if (customer != null)
+            {
+                order.IdCustomer = customer.Id;
+                order.Customer = null;
+            }
+
+         return orderRepository.Insert(order);
+    
         }
 
         /// <summary>
@@ -29,7 +45,7 @@ namespace ShopM2.Core.Services
         /// <returns></returns>
         List<Order> IOrderService.GetAll()
         {
-            return OrderRepository.GetAll();
+            return orderRepository.GetAll();
         }
     }
 }

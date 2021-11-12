@@ -25,7 +25,7 @@ namespace ShopM2.Infrastructure.Repository
         List<Core.Entities.Product> IProductRepository.GetAll()
         {
             var entityList = entities.ToList();
-
+           
             var listProduct = mapper.Map<List<Core.Entities.Product>>(entityList);
 
             return listProduct;

@@ -1,4 +1,6 @@
-﻿using ShopM2.Core.Entities;
+﻿using Newtonsoft.Json;
+using ShopM2.Core.Dto;
+using ShopM2.Core.Entities;
 using ShopM2.Core.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -27,7 +29,20 @@ namespace ShopM2.WebApi.Controllers
         [HttpPost]
         public Order Create(Order order)
         {
-            return orderService.Create(order);
+            try
+            {
+               // string json = JsonConvert.SerializeObject(order);
+
+                if (order != null)
+                    return orderService.Create(order);
+                else
+                    throw new Exception("No se completo la operación"); ;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                throw new Exception(ex.Message);
+            }
         }
 
 

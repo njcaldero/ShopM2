@@ -46,6 +46,8 @@ namespace ShopM2.WebApi
             container.RegisterType<IProductService, ProductService>();
             container.RegisterType<IOrderRepository, OrderRepository>();
             container.RegisterType<IOrderService, OrderService>();
+            container.RegisterType<ICustomerRepository, CustomerRepository>();
+            container.RegisterType<ICustomerService, CustomerService>();
             container.RegisterType(typeof(IRepository<>), typeof(BaseRepository<>));
 
             IMapper mapper = AutoMapperConfig.Initialize().CreateMapper();

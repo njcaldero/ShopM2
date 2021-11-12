@@ -16,7 +16,8 @@ namespace ShopM2.Util.Mapper
             {
                 cfg.CreateMap<Product, Core.Entities.Product>();
                 cfg.CreateMap<Order, Core.Entities.Order>().ReverseMap();
-                cfg.CreateMap<Customer, Core.Entities.Customer>();
+                cfg.CreateMap<Customer, Core.Entities.Customer>().ReverseMap();
+                cfg.CreateMap<OrderDetail, Core.Entities.OrderDetail>().ReverseMap();
             });
             return configuration;
         }

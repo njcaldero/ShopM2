@@ -35,14 +35,14 @@ namespace ShopM2.Infrastructure.Repository
         {
             Order entity = mapper.Map<Order>(order);
             Order result = entities.Add(entity);
-            if (result != null) {
+            this.Save();
+            if (result != null && result.Id > 0)
+            {
                 Core.Entities.Order orderNew = mapper.Map<Core.Entities.Order>(result);
                 return orderNew;
-            } else return null;
-
-
-           // this.Save();
-          
+            }
+            else return null;
         }
+
     }
 }
