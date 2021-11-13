@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BE0D02FB-841B-42D6-9C0F-3A5D473C5277}</ProjectGuid>
+    <ProjectGuid>{6E1F062B-DD8F-4A36-9796-821438B71424}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ShopM2.PlaceToPay</RootNamespace>
@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,6 +44,17 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\PayRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlacetoPay.Integrations.Library.CSharp\PlacetoPay.Integrations.Library.CSharp.csproj">
+      <Project>{0ccaadbe-2e86-46ef-a9be-0da13a93ce25}</Project>
+      <Name>PlacetoPay.Integrations.Library.CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopM2.Core\ShopM2.Core.csproj">
+      <Project>{f2d62a94-6522-4d87-baac-a556278374cd}</Project>
+      <Name>ShopM2.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

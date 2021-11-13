@@ -96,12 +96,6 @@
     <Compile Include="Repository\ProductRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ShopM2.Core\ShopM2.Core.csproj">
-      <Project>{f2d62a94-6522-4d87-baac-a556278374cd}</Project>
-      <Name>ShopM2.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +110,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Data\ModelShop.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ModelShop.edmx</DependentUpon>
@@ -128,7 +125,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Extensions\" />
+    <ProjectReference Include="..\ShopM2.Core\ShopM2.Core.csproj">
+      <Project>{f2d62a94-6522-4d87-baac-a556278374cd}</Project>
+      <Name>ShopM2.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopM2.PlaceToPay\ShopM2.PlaceToPay.csproj">
+      <Project>{6e1f062b-dd8f-4a36-9796-821438b71424}</Project>
+      <Name>ShopM2.PlaceToPay</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

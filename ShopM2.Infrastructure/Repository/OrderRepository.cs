@@ -24,7 +24,7 @@ namespace ShopM2.Infrastructure.Repository
 
         List<Core.Entities.Order> IOrderRepository.GetAll()
         {
-            var entityList = entities.ToList();
+            var entityList = entities.ToList().OrderByDescending(x=>x.Id);
 
             var list = mapper.Map<List<Core.Entities.Order>>(entityList);
 
@@ -44,5 +44,16 @@ namespace ShopM2.Infrastructure.Repository
             else return null;
         }
 
+        Core.Entities.Order IOrderRepository.GetById(int idOrder)
+        {
+            Order result = entities.SingleOrDefault(x => x.Id == idOrder);
+
+            if (result != null && result.Id > 0)
+            {
+                Core.Entities.Order orderNew = mapper.Map<Core.Entities.Order>(result);
+                return orderNew;
+            }
+            else return null;
+        }
     }
 }

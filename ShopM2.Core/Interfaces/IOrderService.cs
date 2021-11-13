@@ -9,5 +9,9 @@ namespace ShopM2.Core.Interfaces
         List<Order> GetAll();
 
         Order Create(Order order);
+
+        Order GetById(int idOrder);
+
+        bool PayOrder(int idOrder);
     }
 }

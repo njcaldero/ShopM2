@@ -47,5 +47,20 @@ namespace ShopM2.Core.Services
         {
             return orderRepository.GetAll();
         }
+
+        /// <summary>
+        /// service that returns the order by id
+        /// </summary>
+        /// <param name="idOrder">int idOrder</param>
+        /// <returns>Order</returns>
+        Order IOrderService.GetById(int idOrder)
+        {
+            return orderRepository.GetById(idOrder);
+        }
+
+        bool IOrderService.PayOrder(int idOrder)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

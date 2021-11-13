@@ -30,7 +30,7 @@ namespace ShopM2.Infrastructure.Data
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderStatus> OrderStatus1 { get; set; }
         public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<TransactionLog> TransactionLogs { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
+        public virtual DbSet<TransactionLog> TransactionLogs { get; set; }
     }
 }

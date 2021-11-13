@@ -9,5 +9,7 @@ namespace ShopM2.Core.Interfaces
         List<Order> GetAll();
 
         Order Insert(Order order);
+
+        Order GetById(int idOrder); 
     }
 }

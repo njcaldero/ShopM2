@@ -4,19 +4,19 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="d7aafee573a54dda8395e7696652b27b" Name="Diagram1">
-        <EntityTypeShape EntityType="SHOP_M2Model.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SHOP_M2Model.OrderDetail" PointX="2.75" PointY="0.5" Width="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="SHOP_M2Model.Order" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SHOP_M2Model.OrderStatus" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SHOP_M2Model.Product" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SHOP_M2Model.TransactionLog" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SHOP_M2Model.sysdiagram" Width="1.5" PointX="3.375" PointY="6.75" />
-        <AssociationConnector Association="SHOP_M2Model.FK_Orders_Customers" />
-        <AssociationConnector Association="SHOP_M2Model.FK_OrderDetail_Orders" />
-        <AssociationConnector Association="SHOP_M2Model.FK_OrderDetail_Products" />
-        <AssociationConnector Association="SHOP_M2Model.FK_Orders_OrderStatus" />
-        <AssociationConnector Association="SHOP_M2Model.FK_TransactionLog_Orders" />
+      <Diagram DiagramId="0760202e197746f091ba4927c308d118" Name="Diagram1">
+        <EntityTypeShape EntityType="SHOP_M2Model.Customer" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOP_M2Model.OrderDetail" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOP_M2Model.Order" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOP_M2Model.OrderStatus" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOP_M2Model.Product" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOP_M2Model.sysdiagram" Width="1.5" PointX="7.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOP_M2Model.TransactionLog" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="SHOP_M2Model.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOP_M2Model.FK_OrderDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOP_M2Model.FK_OrderDetail_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOP_M2Model.FK_Orders_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOP_M2Model.FK_TransactionLog_Orders" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
