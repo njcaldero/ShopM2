@@ -55,5 +55,22 @@ namespace ShopM2.Infrastructure.Repository
             }
             else return null;
         }
+
+        Core.Entities.Order IOrderRepository.Update(Core.Entities.Order order)
+        {
+            Order entity = entities.SingleOrDefault(x => x.Id == order.Id);
+            entity.IdStatus = order.IdStatus;
+            entity.Updated_at = order.Updated_at;
+            Order result = entities.Attach(entity);
+            this.Entry(entity);
+            this.Save();
+            if (result != null && result.Id > 0)
+            {
+                Core.Entities.Order orderNew = mapper.Map<Core.Entities.Order>(result);
+                return orderNew;
+            }
+            else return null;
+        }
+
     }
 }

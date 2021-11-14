@@ -33,7 +33,7 @@ namespace ShopM2.WebApi.Controllers
         {
             try
             {
-               // string json = JsonConvert.SerializeObject(order);
+                // string json = JsonConvert.SerializeObject(order);
 
                 if (order != null)
                     return orderService.Create(order);
@@ -65,14 +65,14 @@ namespace ShopM2.WebApi.Controllers
         }
 
         [HttpPost]
-        public bool PayOrder(Order order)
+        public string PayOrder(Order order)
         {
             try
             {
                 if (order.Id > 0)
                     return orderService.PayOrder(order.Id);
                 else
-                    throw new Exception("No se completo la operación"); ;
+                    throw new Exception("The operation is not completed"); ;
             }
             catch (Exception ex)
             {
@@ -81,6 +81,22 @@ namespace ShopM2.WebApi.Controllers
             }
         }
 
+        [HttpPost]
+        public Order CheckPayment(Order order)
+        {
+            try
+            {
+                if (order.Id > 0)
+                    return orderService.CheckPayment(order.Id);
+                else
+                    throw new Exception("The operation is not completed"); ;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                throw new Exception(ex.Message);
+            }
+        }
 
 
     }

@@ -10,6 +10,8 @@ namespace ShopM2.Core.Interfaces
 
         Order Insert(Order order);
 
-        Order GetById(int idOrder); 
+        Order GetById(int idOrder);
+
+        Order Update(Order order);
     }
 }

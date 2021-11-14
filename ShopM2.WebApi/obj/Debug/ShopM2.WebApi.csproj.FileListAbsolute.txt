@@ -101,3 +101,10 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\obj\Debug
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\obj\Debug\ShopM2.WebApi.pdb
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.Cors.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.Cors.xml
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.PlaceToPay.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\RestSharp.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.PlaceToPay.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.dll.config
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\RestSharp.xml

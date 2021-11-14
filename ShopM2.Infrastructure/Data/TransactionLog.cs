@@ -16,7 +16,7 @@ namespace ShopM2.Infrastructure.Data
     {
         public int Id { get; set; }
         public int IdOrder { get; set; }
-        public int IdRequest { get; set; }
+        public string IdRequest { get; set; }
         public string ResponseTransaction { get; set; }
         public System.DateTime DateTime { get; set; }
     

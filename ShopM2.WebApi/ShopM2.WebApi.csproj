@@ -156,6 +156,10 @@
       <Project>{ca8c0013-0d5d-433a-b8fc-bac32ca2f0d0}</Project>
       <Name>ShopM2.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ShopM2.PlaceToPay\ShopM2.PlaceToPay.csproj">
+      <Project>{6e1f062b-dd8f-4a36-9796-821438b71424}</Project>
+      <Name>ShopM2.PlaceToPay</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ShopM2.Util\ShopM2.Util.csproj">
       <Project>{d003f79e-8edc-4b90-8508-ee7029208a81}</Project>
       <Name>ShopM2.Util</Name>

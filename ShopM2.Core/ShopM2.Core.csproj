@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\InputPayDto.cs" />
     <Compile Include="Dto\OrderDto.cs" />
+    <Compile Include="Dto\OutPutPayDto.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\Order.cs" />
@@ -49,21 +51,27 @@
     <Compile Include="Entities\OrderStatus.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\TransactionLog.cs" />
+    <Compile Include="Enumerators\PaymentStatus.cs" />
+    <Compile Include="Enumerators\Status.cs" />
     <Compile Include="Interfaces\ICustomerRepository.cs" />
     <Compile Include="Interfaces\IOrderRepository.cs" />
     <Compile Include="Interfaces\IPayRepository.cs" />
+    <Compile Include="Interfaces\IPayService.cs" />
     <Compile Include="Interfaces\IProductRepository.cs" />
     <Compile Include="Interfaces\IProductService.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\ITransactionLogRepository.cs" />
+    <Compile Include="Interfaces\ITransactionLogService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Interfaces\IOrderService.cs" />
     <Compile Include="Services\CustomerService.cs" />
     <Compile Include="Interfaces\ICustomerService.cs" />
     <Compile Include="Services\OrderService.cs" />
+    <Compile Include="Services\PayService.cs" />
     <Compile Include="Services\ProductService.cs" />
+    <Compile Include="Services\TransactionLogService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Enumerators\" />
     <Folder Include="Exceptions\" />
     <Folder Include="QueryFilter\" />
   </ItemGroup>

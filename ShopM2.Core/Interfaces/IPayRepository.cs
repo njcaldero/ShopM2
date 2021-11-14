@@ -1,4 +1,5 @@
-﻿using ShopM2.Core.Entities;
+﻿using ShopM2.Core.Dto;
+using ShopM2.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace ShopM2.Core.Interfaces
 {
    public interface IPayRepository
     {
-        bool PayOrder(Order order);
+        OutPutPayDto PayOrder(InputPayDto order);
+
+        OutPutPayDto CheckPayment(InputPayDto order);
     }
 }

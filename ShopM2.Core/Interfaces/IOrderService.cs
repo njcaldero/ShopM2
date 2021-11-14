@@ -12,6 +12,10 @@ namespace ShopM2.Core.Interfaces
 
         Order GetById(int idOrder);
 
-        bool PayOrder(int idOrder);
+        string PayOrder(int idOrder);
+
+        Order CheckPayment(int idOrder);
+
+        Order Update(Order order);
     }
 }

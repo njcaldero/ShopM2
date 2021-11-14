@@ -2,6 +2,7 @@ using AutoMapper;
 using ShopM2.Core.Interfaces;
 using ShopM2.Core.Services;
 using ShopM2.Infrastructure.Repository;
+using ShopM2.PlaceToPay.Repository;
 using ShopM2.Util.Mapper;
 using System;
 
@@ -48,6 +49,10 @@ namespace ShopM2.WebApi
             container.RegisterType<IOrderService, OrderService>();
             container.RegisterType<ICustomerRepository, CustomerRepository>();
             container.RegisterType<ICustomerService, CustomerService>();
+            container.RegisterType<IPayService, PayService>();
+            container.RegisterType<IPayRepository, PayRepository>();
+            container.RegisterType<ITransactionLogService, TransactionLogService>();
+            container.RegisterType<ITransactionLogRepository, TransactionLogRepository>();
             container.RegisterType(typeof(IRepository<>), typeof(BaseRepository<>));
 
             IMapper mapper = AutoMapperConfig.Initialize().CreateMapper();

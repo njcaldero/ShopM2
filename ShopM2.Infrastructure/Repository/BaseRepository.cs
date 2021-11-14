@@ -23,8 +23,16 @@ namespace ShopM2.Infrastructure.Repository
         public void Save()
         {
             context.SaveChanges();
-
         }
+
+        public void Entry<TEntity>(TEntity entity)
+        {
+           context.Entry(entity).State = EntityState.Modified;  
+        }
+
+   
+
+
     }
 
 }
