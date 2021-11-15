@@ -10,9 +10,9 @@ namespace ShopM2.WebApi.Controllers
     public class HealthController : ApiController
     {
         [HttpGet]
-        public bool liveness()
+        public string liveness()
         {
-            return true;
+            return "Running...";
         }
     }
 }

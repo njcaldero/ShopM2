@@ -59,11 +59,13 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Micro
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Newtonsoft.Json.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Core.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Infrastructure.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.PlaceToPay.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Util.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Net.Http.Formatting.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Cors.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.Cors.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.WebHost.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Unity.Abstractions.dll
@@ -71,9 +73,12 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Unity
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Unity.Container.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\WebActivatorEx.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\EntityFramework.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\RestSharp.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Core.pdb
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Infrastructure.pdb
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Infrastructure.dll.config
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.PlaceToPay.pdb
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.Util.pdb
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\AutoMapper.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Microsoft.Bcl.AsyncInterfaces.xml
@@ -81,6 +86,7 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Micro
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.Cors.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Unity.Abstractions.pdb
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Unity.AspNet.WebApi.pdb
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Unity.AspNet.WebApi.xml
@@ -91,6 +97,9 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Syste
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.WebHost.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\EntityFramework.xml
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.dll.config
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\RestSharp.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\es\System.Net.Http.Formatting.resources.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\es\System.Web.Http.resources.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\es\System.Web.Http.WebHost.resources.dll
@@ -99,12 +108,3 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\obj\Debug
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\obj\Debug\ShopM2.WebApi.csproj.CopyComplete
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\obj\Debug\ShopM2.WebApi.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\obj\Debug\ShopM2.WebApi.pdb
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.Cors.dll
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\System.Web.Http.Cors.xml
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.PlaceToPay.dll
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.dll
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\RestSharp.dll
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\ShopM2.PlaceToPay.pdb
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.pdb
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\PlacetoPay.Integrations.Library.CSharp.dll.config
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.WebApi\bin\RestSharp.xml

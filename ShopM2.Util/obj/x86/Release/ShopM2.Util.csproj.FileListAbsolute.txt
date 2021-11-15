@@ -1,0 +1,16 @@
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\ShopM2.Util.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\ShopM2.Util.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\AutoMapper.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\ShopM2.Core.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\ShopM2.Infrastructure.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\EntityFramework.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\ShopM2.Core.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\ShopM2.Infrastructure.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\ShopM2.Infrastructure.dll.config
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\AutoMapper.xml
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\bin\x86\Release\EntityFramework.xml
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\obj\x86\Release\ShopM2.Util.csproj.AssemblyReference.cache
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\obj\x86\Release\ShopM2.Util.csproj.CoreCompileInputs.cache
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\obj\x86\Release\ShopM2.Util.csproj.CopyComplete
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\obj\x86\Release\ShopM2.Util.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.Util\obj\x86\Release\ShopM2.Util.pdb

@@ -1,0 +1,12 @@
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\bin\x86\Release\PlacetoPay.Integrations.Library.CSharp.dll.config
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\bin\x86\Release\PlacetoPay.Integrations.Library.CSharp.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\bin\x86\Release\PlacetoPay.Integrations.Library.CSharp.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\bin\x86\Release\Newtonsoft.Json.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\bin\x86\Release\RestSharp.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\bin\x86\Release\SoapHttpClient.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\bin\x86\Release\Newtonsoft.Json.xml
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\bin\x86\Release\RestSharp.xml
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\obj\x86\Release\PlacetoPay.Integrations.Library.CSharp.csproj.CoreCompileInputs.cache
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\obj\x86\Release\PlacetoPay.Integrations.Library.CSharp.csproj.CopyComplete
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\obj\x86\Release\PlacetoPay.Integrations.Library.CSharp.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\PlacetoPay.Integrations.Library.CSharp\obj\x86\Release\PlacetoPay.Integrations.Library.CSharp.pdb

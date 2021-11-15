@@ -1,11 +1,8 @@
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\ShopM2.PlaceToPay.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\ShopM2.PlaceToPay.pdb
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\obj\Debug\ShopM2.PlaceToPay.csproj.CoreCompileInputs.cache
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\obj\Debug\ShopM2.PlaceToPay.dll
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\obj\Debug\ShopM2.PlaceToPay.pdb
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\Newtonsoft.Json.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\PlacetoPay.Integrations.Library.CSharp.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\ShopM2.Core.dll
-C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\Newtonsoft.Json.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\RestSharp.dll
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\PlacetoPay.Integrations.Library.CSharp.pdb
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\PlacetoPay.Integrations.Library.CSharp.dll.config
@@ -13,4 +10,7 @@ C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\D
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\Newtonsoft.Json.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\bin\Debug\RestSharp.xml
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\obj\Debug\ShopM2.PlaceToPay.csproj.AssemblyReference.cache
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\obj\Debug\ShopM2.PlaceToPay.csproj.CoreCompileInputs.cache
 C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\obj\Debug\ShopM2.PlaceToPay.csproj.CopyComplete
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\obj\Debug\ShopM2.PlaceToPay.dll
+C:\Users\NestorJulioCalderonR\Documents\Proyectos\ShopM2\ShopM2.PlaceToPay\obj\Debug\ShopM2.PlaceToPay.pdb

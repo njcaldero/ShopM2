@@ -21,8 +21,30 @@ namespace ShopM2.WebApi.Controllers
         [HttpPost]
         public List<Product> GetAll()
         {
-            //throw new HttpResponseException(Request.CreateErrorResponse(HttpStatusCode.NotFound, "Hola"));
-            return productService.GetAll();
+            try
+            {
+                return productService.GetAll();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                throw new Exception(ex.ToString());
+            }
         }
+
+        [HttpGet]
+        public string GetAllTest()
+        {
+            try
+            {
+                return productService.GetAll().Count().ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+               return ex.ToString();
+            }
+        }
+
     }
 }
